@@ -8,8 +8,9 @@ Bættum við öðrum network adapter og tengdum þá báða við VMnet1 og VMnet
 ---
 ## 2. 
 
-Settum upp server1 með username: abdel og password: abdel.
-
+Settum upp server1
+| username | abdel |
+| password | abdel |
 ---
 ## 3.
 
