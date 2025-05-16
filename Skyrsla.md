@@ -13,3 +13,7 @@ Settum upp server1 með username: abdel og password: abdel.
 ---
 ## 3.
 
+Við erum búnir að setja upp centOS og gerðum backup verkefni.
+
+
+
