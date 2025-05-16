@@ -9,8 +9,11 @@ Bættum við öðrum network adapter og tengdum þá báða við VMnet1 og VMnet
 ## 2. 
 
 Settum upp server1
+| Usn & Pssw | answer |
+| -------- | ----- |
 | username | abdel |
 | password | abdel |
+
 ---
 ## 3.
 
