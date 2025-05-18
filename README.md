@@ -90,14 +90,7 @@ Postfix was installed as the email server, and Roundcube was set up as a webmail
 
 ---
 
-## 10. Shared Printer Configuration (CUPS)
-CUPS (Common UNIX Printing System) was configured to provide shared printers. Access was restricted by user group, allowing only IT and Management users to manage printers, while other departments could only print.
-
-![Printer Configuration](screenshots/printer_configuration.png)
-
----
-
-## 11. Securing SSH with RSA Keys
+## 10. Securing SSH with RSA Keys
 SSH was secured using RSA key-based authentication. Password authentication was disabled, and only users in the IT and Management groups were granted SSH access.
 
 ![SSH RSA Keys](screenshots/ssh_rsa_keys.png)
@@ -105,7 +98,7 @@ SSH was secured using RSA key-based authentication. Password authentication was 
 
 ---
 
-## 12. Securing the System with UFW and Nmap
+## 11. Securing the System with UFW and Nmap
 Uncomplicated Firewall (UFW) was used to secure the server by allowing only necessary ports:
 - SSH (22)
 - HTTP (80), HTTPS (443)
