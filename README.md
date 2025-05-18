@@ -31,9 +31,10 @@ The DHCP server was installed and configured to provide IP addresses to Client1 
 ## 3. DNS Configuration on Server1
 DNS was set up using BIND9. A forward zone was created for `ddp.is`, and a reverse zone was set up for IP address resolution. This configuration allowed hostname-to-IP and IP-to-hostname resolution within the network.
 
-- **Configuration Files:** `config_files/named.conf.local.txt`, `config_files/server1.ddp.is.db.txt`, `config_files/reverse.ddp.is.db.txt`
-- **Reference Screenshot:** ![DNS Configuration](screenshots/dns_configuration.png)
-- **Reference Screenshot:** ![NSLookup Results](screenshots/dns_nslookup.png)
+![DNS Configuration](screenshots/dns_configuration.png)
+![DNS_NSlookup](screenshots/dns_nslookup.png)
+![Forward Zone](screenshots/forward_zone.png)
+![Reverse Zone](screenshots/reverse_forward_zone.png)
 
 ---
 
