@@ -13,8 +13,9 @@ We began by setting the hostnames for each machine:
 
 Hostnames were configured throug startup, or by editing the `/etc/hostname` and `/etc/hosts` files on each machine. The static IP configuration for Server1 was set using a network configuration file. This IP was assigned as 192.168.100.10.
 
-- **Reference Screenshot:** ![Network Configuration](screenshots/network_configuration.png)
-- **Reference Screenshot:** ![IP Address Verification](screenshots/ip_address_verification.png)
+![Network Configuration](screenshots/network_configuration.png)
+![Hostname Configuration](screenshots/hostname_configuration.png)
+![IP Address Verification](screenshots/ip_address_verification.png)
 
 ---
 
