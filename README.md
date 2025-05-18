@@ -43,6 +43,7 @@ A script was created to automate user account creation based on a list of users 
 
 ![User Creation Script](screenshots/user_creation_script.png)
 <br>
+<br>
 A few Users that were created:
 ![User List](screenshots/user_list.png)
 
