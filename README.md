@@ -69,6 +69,8 @@ The Network Time Protocol was configured on Server1 as the master server, and bo
 
 ![NTP Configuration](screenshots/ntp_server.png)
 ![NTP Sync](screenshots/ntp_client_sync.png)
+![NTP Sync](screenshots/debian_ntp_client_sync.png)
+![NTP Sync](screenshots/centos_ntp_client_sync.png)
 
 ---
 
