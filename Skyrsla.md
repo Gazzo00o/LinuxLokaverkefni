@@ -11,7 +11,7 @@ We began by setting the hostnames for each machine:
 - Client1: `client1.ddp.is`
 - Client2: `client2.ddp.is`
 
-Hostnames were configured by editing the `/etc/hostname` and `/etc/hosts` files on each machine. The static IP configuration for Server1 was set using a network configuration file. This IP was assigned as 192.168.100.10.
+Hostnames were configured throug startup, or by editing the `/etc/hostname` and `/etc/hosts` files on each machine. The static IP configuration for Server1 was set using a network configuration file. This IP was assigned as 192.168.100.10.
 
 - **Reference Screenshot:** ![Network Configuration](screenshots/network_configuration.png)
 - **Reference Screenshot:** ![IP Address Verification](screenshots/ip_address_verification.png)
