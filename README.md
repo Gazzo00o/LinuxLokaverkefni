@@ -77,36 +77,31 @@ The Network Time Protocol was configured on Server1 as the master server, and bo
 ## 8. Centralized Logging with Syslog
 Syslog was configured on Server1 to receive logs from Client1 and Client2. This allows centralized monitoring of log files for proactive management.
 
-- **Configuration File:** `config_files/rsyslog.conf.txt`
-- **Reference Screenshot:** ![Syslog Server](screenshots/syslog_server.png)
-- **Reference Screenshot:** ![Syslog Client Logs](screenshots/syslog_client_logs.png)
+![Syslog Server](screenshots/syslog_server.png)
+![Syslog Client Logs](screenshots/syslog_client_logs.png)
 
 ---
 
 ## 9. Postfix and Roundcube Email Setup
 Postfix was installed as the email server, and Roundcube was set up as a webmail client. This allows users to send and receive emails within the network using their `ddp.is` email addresses.
 
-- **Postfix Configuration:** `config_files/main.cf.txt`
-- **Roundcube Configuration:** `config_files/config.inc.php.txt`
-- **Reference Screenshot:** ![Postfix and Roundcube](screenshots/postfix_roundcube.png)
-- **Reference Screenshot:** ![Test Email Sent and Received](screenshots/postfix_test_email.png)
+
+![Postfix and Roundcube](screenshots/postfix_roundcube.png)
 
 ---
 
 ## 10. Shared Printer Configuration (CUPS)
 CUPS (Common UNIX Printing System) was configured to provide shared printers. Access was restricted by user group, allowing only IT and Management users to manage printers, while other departments could only print.
 
-- **Configuration File:** `config_files/cupsd.conf.txt`
-- **Reference Screenshot:** ![Printer Configuration](screenshots/printer_configuration.png)
+![Printer Configuration](screenshots/printer_configuration.png)
 
 ---
 
 ## 11. Securing SSH with RSA Keys
 SSH was secured using RSA key-based authentication. Password authentication was disabled, and only users in the IT and Management groups were granted SSH access.
 
-- **Configuration File:** `config_files/sshd_config.txt`
-- **Reference Screenshot:** ![SSH RSA Keys](screenshots/ssh_rsa_keys.png)
-- **Reference Screenshot:** ![Successful SSH Login](screenshots/ssh_successful_login.png)
+![SSH RSA Keys](screenshots/ssh_rsa_keys.png)
+![Successful SSH Login](screenshots/ssh_successful_login.png)
 
 ---
 
@@ -122,16 +117,4 @@ Uncomplicated Firewall (UFW) was used to secure the server by allowing only nece
 
 Nmap was used to verify that only these ports were open.
 
-- **Firewall Status:** `config_files/ufw_status.txt`
-- **Reference Screenshot:** ![Nmap Scan - Secure](screenshots/ufw_nmap_secure.png)
-
----
-
-## Conclusion
-This project demonstrated the process of setting up a secure and functional Linux server for a network domain, including DNS, DHCP, secure SSH, email, printers, logging, and secure access control.
-
-- If you encounter any issues, refer to the configuration files in the `config_files` directory.
-- For any questions, feel free to reach out.
-
----
-
+![Nmap Scan - Secure](screenshots/ufw_nmap_secure.png)
