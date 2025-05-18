@@ -94,7 +94,6 @@ Postfix was installed as the email server, and Roundcube was set up as a webmail
 SSH was secured using RSA key-based authentication. Password authentication was disabled, and only users in the IT and Management groups were granted SSH access.
 
 ![SSH RSA Keys](screenshots/ssh_rsa_keys.png)
-![Successful SSH Login](screenshots/ssh_successful_login.png)
 
 ---
 
