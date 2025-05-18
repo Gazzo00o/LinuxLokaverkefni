@@ -22,9 +22,8 @@ Hostnames were configured throug startup, or by editing the `/etc/hostname` and 
 ## 2. Configuring DHCP on Server1
 The DHCP server was installed and configured to provide IP addresses to Client1 and Client2 automatically. The DHCP configuration was defined to use a range of IP addresses, with the server itself acting as the gateway and DNS server.
 
-- **Configuration File:** `config_files/dhcpd.conf.txt`
-- **Reference Screenshot:** ![DHCP Configuration](screenshots/dhcp_configuration.png)
-- **Reference Screenshot:** ![DHCP Active](screenshots/dhcp_active.png)
+![DHCP Configuration](screenshots/dhcp_configuration.png)
+![DHCP Active](screenshots/dhcp_active.png)
 
 ---
 
