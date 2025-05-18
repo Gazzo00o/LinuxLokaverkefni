@@ -16,6 +16,7 @@ Hostnames were configured throug startup, or by editing the `/etc/hostname` and 
 ![Network Configuration](screenshots/network_configuration.png)
 ![Hostname Configuration](screenshots/hostname_configuration.png)
 ![IP Address Verification](screenshots/ip_address_verification.png)
+![Static IP Address](screenshots/static_ip_address.png)
 
 ---
 
