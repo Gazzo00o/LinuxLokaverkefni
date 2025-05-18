@@ -41,9 +41,10 @@ DNS was set up using BIND9. A forward zone was created for `ddp.is`, and a rever
 ## 4. User Creation with a Script
 A script was created to automate user account creation based on a list of users provided in a CSV file. The script read the CSV file and automatically created users with a default password.
 
-- **User Creation Script:** `scripts/create_users.sh`
-- **Reference Screenshot:** ![User Creation Script](screenshots/user_creation_script.png)
-- **Reference Screenshot:** ![User List](screenshots/user_list.png)
+![User Creation Script](screenshots/user_creation_script.png)
+<br>
+A few Users that were created:
+![User List](screenshots/user_list.png)
 
 ---
 
