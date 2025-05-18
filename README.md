@@ -98,7 +98,7 @@ SSH was secured using RSA key-based authentication. Password authentication was 
 ---
 
 ## 11. Securing the System with UFW and Nmap
-Uncomplicated Firewall (UFW) was used to secure the server by allowing only necessary ports:
+Uncomplicated Firewall was used to secure the server by allowing only necessary ports:
 - SSH (22)
 - HTTP (80), HTTPS (443)
 - SMTP (25), IMAP (143)
