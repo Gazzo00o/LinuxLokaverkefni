@@ -52,9 +52,8 @@ A few Users that were created:
 ## 5. MySQL Human Resource Database Setup
 MySQL was installed on Server1, and a Human Resources database was created. This database contains tables for employees, departments, jobs, and locations. Each table was structured to store relevant employee information.
 
-- **Configuration File:** `config_files/mysql.cnf.txt`
-- **Reference Screenshot:** ![MySQL Database Setup](screenshots/mysql_database_creation.png)
-- **Reference Screenshot:** ![HR Tables](screenshots/mysql_hr_tables.png)
+![MySQL Database Setup](screenshots/mysql_database_creation.png)
+![HR Tables](screenshots/mysql_hr_tables.png)
 
 ---
 
