@@ -1,7 +1,7 @@
 # KEST3LN05EU-Hát Linux - netstjórnun
 
 ## Introduction
-This project involved setting up and configuring a Linux server (Server1) and two clients (Client1 and Client2) for the domain `ddp.is`. This guide provides a detailed walkthrough of the configuration process, including network setup, user management, DNS, DHCP, MySQL database creation, secure SSH configuration, and more.
+This project involved setting up and configuring a Linux server, Server1, and two clients, Client1 and Client2, for the domain `ddp.is`. This document provides a detailed walkthrough of the configuration process, including network setup, user management, DNS, DHCP, MySQL database creation, secure SSH configuration, and more.
 
 ---
 
@@ -65,11 +65,10 @@ A backup script was created to automatically back up user home directories every
 ---
 
 ## 7. NTP Time Synchronization
-The Network Time Protocol (NTP) was configured on Server1 as the master server, and both clients were set to sync their time with the server. This ensures all systems maintain accurate and synchronized time.
+The Network Time Protocol was configured on Server1 as the master server, and both clients were set to sync their time with the server. This ensures all systems maintain accurate and synchronized time.
 
-- **Configuration File:** `config_files/ntp.conf.txt`
-- **Reference Screenshot:** ![NTP Configuration](screenshots/ntp_server.png)
-- **Reference Screenshot:** ![NTP Sync](screenshots/ntp_client_sync.png)
+![NTP Configuration](screenshots/ntp_server.png)
+![NTP Sync](screenshots/ntp_client_sync.png)
 
 ---
 
