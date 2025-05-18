@@ -60,9 +60,7 @@ MySQL was installed on Server1, and a Human Resources database was created. This
 ## 6. Automated Weekly Backup
 A backup script was created to automatically back up user home directories every Friday at midnight. This was managed using a crontab entry on Server1.
 
-- **Backup Script:** `scripts/backup_home.sh`
-- **Configuration File:** `config_files/crontab_backup.txt`
-- **Reference Screenshot:** ![Backup Configuration](screenshots/backup_crontab.png)
+![Backup Configuration](screenshots/backup_crontab.png)
 
 ---
 
