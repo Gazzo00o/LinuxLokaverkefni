@@ -1,4 +1,4 @@
-# DDP Linux Server Setup (KEST3NL05EU)
+# KEST3LN05EU-Hát Linux - netstjórnun
 
 ## Introduction
 This project involved setting up and configuring a Linux server (Server1) and two clients (Client1 and Client2) for the domain `ddp.is`. This guide provides a detailed walkthrough of the configuration process, including network setup, user management, DNS, DHCP, MySQL database creation, secure SSH configuration, and more.
